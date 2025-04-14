@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE_URL = 'http://localhost:5000'; // or your deployed backend URL
+const BASE_URL = 'https://backend-zo7d.onrender.com'; // or your deployed backend URL
 
 export const register = (data) =>
   axios.post(`${BASE_URL}/api/auth/register`, data);
